@@ -137,6 +137,30 @@ print("\nQ3b\n")
 
 
 # A3b:
+def prime(x):
+    if x == 0 or x == 1:
+        return False
+    elif x == 2:
+        return True
+    for n in range(2, x-1):
+        if x % n == 0:
+            return False
+    else:
+        return True
+
+keep_asking = True
+age_int = None
+
+while keep_asking:
+    digit = input("Enter a number\n")
+    if digit.isdigit():
+        digit_int = int(digit)
+        keep_asking = False
+    else:
+        print("Please enter a valid number in digits")
+
+prime_digit = prime(int(digit))
+print(prime_digit)
 
 
 
