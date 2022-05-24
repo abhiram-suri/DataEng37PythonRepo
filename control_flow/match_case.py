@@ -23,6 +23,6 @@ match weekday_int:
 
 print(weekday)
 
-for i in range (1, 101):
-    match i % 15:
-        case 3 | 6 | 9
+# for i in range (1, 101):
+#     match i % 15:
+#         case 3 | 6 | 9
