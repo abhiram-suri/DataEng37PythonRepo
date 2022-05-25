@@ -28,3 +28,5 @@ class Pikachu(Pokemon):
 if __name__ == "__main__":
     char = Charmander()
     print(char.moves)
+    for move in char.moves:
+        print(move)

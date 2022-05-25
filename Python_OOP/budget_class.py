@@ -1,0 +1,2 @@
+# Create a Budget class that can keep track of different budget categories like food, clothing, and entertainment.
+# These should allow for depositing and withdrawing funds from each category, as well computing category balances and transferring balance amounts between categories
