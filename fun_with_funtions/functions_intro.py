@@ -20,8 +20,7 @@
     #         result *= num
     #     return result
 #
-# print(product(1, 4, 8, 9))
-# print(product(5))
+
 
 # def kwargs_demo(**kwargs):
 #     print(kwargs, type(kwargs))
