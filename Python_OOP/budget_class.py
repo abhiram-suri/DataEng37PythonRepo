@@ -11,13 +11,13 @@ class Budget:
         self.amount = self.amount + deposit_add
 
     def withdraw(self, withdraw_subtract):
-        if withdraw_subtract > 0 and self.amount > withdraw_subtract:
+        if self.amount > withdraw_subtract:
             self.amount -= withdraw_subtract
         else:
             print("Insufficient balance for withdrawal")
 
     def transfer(self, transfer_funds, category):
-        if transfer_funds > 0 and self.amount > transfer_funds:
+        if self.amount > transfer_funds:
             self.withdraw(transfer_funds)
             category.deposit(transfer_funds)
         else:
