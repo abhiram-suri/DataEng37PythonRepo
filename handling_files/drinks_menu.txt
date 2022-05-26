@@ -1,0 +1,11 @@
+Water
+Coca-Cola
+Diet Coke
+Coke Zero
+Fanta
+7Up
+Coffee
+Tea
+Mojito
+Sangria
+Margarita
