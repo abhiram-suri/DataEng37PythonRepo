@@ -1,23 +1,24 @@
 class Rectangle:
-    def __init__(self, height, length):
+    def __init__(self, height, width):
         self.height = height
-        self.length = length
+        self.width = width
 
     def get_perimeter(self):
-        return (2 * self.height) + (2 * self.length)
+        return (2 * self.height) + (2 * self.width)
 
     def get_area(self):
-        return self.length * self.height
+        return self.width * self.height
 
     def __repr__(self):
-        return f"(length = {self.length}, width = {self.height})"
+        return f"(length = {self.width}, width = {self.height})"
 
     def __str__(self):
-        return f"({self.length})({self.height})"
+        return f"({self.width})({self.height})"
 
 class Square(Rectangle):
-    def __init__(self, width):
-        super().__init__(width, width)
+    def __init__(self, length):
+        self.length = length
+        super().__init__(length, length)
 
 
 rectangle_class = Rectangle(4,3)
