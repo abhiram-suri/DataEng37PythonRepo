@@ -28,11 +28,11 @@ h = "hello world!. greetings. something else."
 #
 # print(h[3:8])
 #
-# print(h[3:])
+print(h[3:])
 #
 # print(h[1:-1:3])
-# print(h[4::2])
-# print(h[::-1])
+print(h[4::2])
+print(h[::-1])
 
 # String Methods
 
@@ -84,7 +84,7 @@ print(f"{name} is {years + 7} years old in dog years and {height_cm:.2f}cm tall"
 score = 16
 max_Score = 26
 
-print(f"You scored {score/max_Score}")
+print(f"You scored {score/max_Score:.2f}")
 print(f"You scored {score/max_Score:%}")
 print(f"You scored {score/max_Score:.2%}")
 print(f"You scored {score/max_Score:.0%}")
