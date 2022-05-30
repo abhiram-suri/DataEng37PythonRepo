@@ -6,7 +6,7 @@ shopping_list = ["bread", "bananas", "biscuits", "oat milk"]
 #
 # print(shopping_list[0])
 # print(shopping_list[-1])
-# print(shopping_list[::-1])
+print(shopping_list[::-1])
 
 # # Lists and Mutable
 #
