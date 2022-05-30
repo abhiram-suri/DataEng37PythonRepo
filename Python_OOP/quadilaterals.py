@@ -19,3 +19,6 @@ print(s.get_area())
 
 print(isinstance(s, Rectangle))
 print(issubclass(Square, Rectangle))
+
+
+
